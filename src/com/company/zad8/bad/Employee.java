@@ -1,7 +1,5 @@
 package com.company.zad8.bad;
 
-import com.company.zad7.Database;
-
 import java.util.Date;
 
 public class Employee {
