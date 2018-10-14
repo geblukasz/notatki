@@ -16,6 +16,9 @@ package com.company.zad21;
 * */
 public class Admin /*extends User*/ implements Savable{
 
+    // AGREGACJA (ASOCJACJA) - Admin zawiera uzytkownika w sobie
+    private User user;
+
     public Admin(User user) {
         this.user = user;
     }
@@ -35,7 +38,5 @@ public class Admin /*extends User*/ implements Savable{
     public void setRoles(String[] roles) {
         this.roles = roles;
     }
-
-    private User user;
     private String[] roles;
 }

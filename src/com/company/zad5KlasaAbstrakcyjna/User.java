@@ -1,6 +1,6 @@
 package com.company.zad5KlasaAbstrakcyjna;
 
-public class User {
+public abstract class User {
 
     private String userName;
 
